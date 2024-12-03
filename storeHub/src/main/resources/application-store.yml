@@ -1,0 +1,15 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/xstore_store1
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+
+store:
+  id: store_101
+
+logging:
+  level:
+    org.springframework.beans.factory: DEBUG
